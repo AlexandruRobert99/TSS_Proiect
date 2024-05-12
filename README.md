@@ -38,10 +38,12 @@ Studiul își propune să realizeze o comparație între Selenium și Cypress, d
 
 ## Metodologie
 
-Vom folosi un site-ul folosit în primul articol științific: [Saucedemo](https://www.saucedemo.com)
+Vom folosi un site-ul folosit în primul articol științific: [Saucedemo](https://www.saucedemo.com).
+Pe parcursul testelor noastre vom folosi **standard_user** și **problem_user**.
+Mai jos putem observa cum arată site-ul pe care vom rula testele în Selenium și Cypress pentru a realiza comparațiile.
+Pentru început vom folosi **standard_user**.
 
-**1. Ecranul de autentificare:** Prima imagine arată ecranul de autentificare unde utilizatorii se pot loga folosind nume de utilizator predefinite și o parolă comună. Această pagină este punctul de plecare pentru accesarea contului pe platformă. Pe parcursul testelor noastre vom folosi **standard_user** și **problem_user**.
-
+**1. Ecranul de autentificare:** Prima imagine arată ecranul de autentificare unde utilizatorii se pot loga folosind nume de utilizator predefinite și o parolă comună. Această pagină este punctul de plecare pentru accesarea contului pe platformă. 
 ![Alt text](https://raw.githubusercontent.com/AlexandruRobert99/TSS_Proiect/main/Screenshots/Screenshot%20(1).png)
 
 **2. Selecția produselor și coșul de cumpărături:** Imaginile următoare prezintă produsele pe măsură ce sunt adăugate în coșul de cumpărături. Pe măsură ce articolele sunt selectate, butonul "Add to cart" (Adaugă în coș) se schimbă în "Remove" (Elimină), indicând că produsul a fost adăugat în coș.
@@ -61,3 +63,4 @@ Vom folosi un site-ul folosit în primul articol științific: [Saucedemo](https
 
 ![Alt text](https://raw.githubusercontent.com/AlexandruRobert99/TSS_Proiect/main/Screenshots/Screenshot%20(8).png)
 ![Alt text](https://raw.githubusercontent.com/AlexandruRobert99/TSS_Proiect/main/Screenshots/Screenshot%20(9).png)
+
