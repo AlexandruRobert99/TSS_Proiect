@@ -36,6 +36,24 @@ Studiul își propune să realizeze o comparație între Selenium și Cypress, d
 - Publicație științifică: 9th International Conference on Computer Science, Engineering and Applications (ICCSEA 2019)
 - DOI: [10.5121/csit.2019.91803](https://dx.doi.org/10.5121/csit.2019.91803)
 
+## Scurta descriere a primului articol științific
+
+Articolul se concentrează pe utilizarea Selenium, un instrument popular de automatizare a testelor web, pentru a optimiza procesele de login, tranzacții cu bunuri și completarea datelor clienților în aplicațiile web. Selenium ajută la identificarea automată a elementelor web prin tehnici cum ar fi ID, nume de clasă și selector CSS, facilitând procese precum completarea automată a numelui de utilizator și a parolei, selecția articolelor din inventar și adăugarea lor în coșul de cumpărături, precum și completarea datelor clienților în timpul procesului de checkout.
+
+Studiul evidențiază beneficiile Selenium în ceea ce privește eficiența, consistența și îmbunătățirea experienței utilizatorilor, subliniind în același timp importanța securității datelor în timpul automatizării acestor procese. De asemenea, discută despre testarea automatizată a funcționalităților importante ale site-ului pentru a asigura calitatea și fiabilitatea acestuia.
+
+Aceste practici sunt prezentate printr-un cadru metodologic care include planificarea cercetării, colectarea datelor, implementarea, testarea și raportarea, având ca scop final îmbunătățirea continuă a proceselor de testare a programelor de pe site-uri web.
+
+## Scurta descriere a celui de-al doilea articol științific
+
+Articolul compară eficacitatea Selenium și Cypress în testarea automatizată a aplicațiilor web moderne, cu un accent special pe gestionarea elementelor dinamice ale paginii web. Documentul prezintă provocările legate de timpul de așteptare în Selenium și modul în care Cypress abordează această problemă prin așteptare automată în cadrul său, așteptând ca elementele DOM să se încarce complet înainte de a începe căutarea elementelor web.
+
+În cadrul acestui studiu, AliExpress a fost folosit ca site de testare datorită naturii sale dinamice și accesului de către milioane de utilizatori. Obiectivele cercetării includ crearea de scripturi de automatizare folosind ambele instrumente, dezvoltarea unor suite de regresie pentru fluxurile principale de afaceri ale AliExpress, și compararea timpului de execuție și eficienței testelor între Selenium și Cypress.
+
+Rezultatele sugerează că Cypress este mai eficient în termeni de cod necesar pentru a scrie scripturile de testare și mai rapid în execuția testelor, în timp ce Selenium, deși puternic și stabil, se confruntă cu dificultăți în manipularea elementelor web dinamice, ceea ce poate duce la teste mai instabile. Cypress, deși se concentrează în principal pe browserul Chrome, oferă un cadru simplificat și o configurație mai ușoară comparativ cu Selenium.
+
+În concluzie, articolul sugerează că Cypress poate oferi o alternativă mai eficientă pentru testarea automatizată a aplicațiilor web moderne, îmbunătățind timpul de execuție al testelor și reducând efortul necesar pentru scrierea scripturilor de testare.
+
 ## Prezentarea platformei de testare: Saucedemo
 
 Vom folosi un site-ul folosit în primul articol științific: [Saucedemo](https://www.saucedemo.com).
