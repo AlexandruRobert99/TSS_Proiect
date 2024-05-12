@@ -138,17 +138,19 @@ Se poate vedea la final un log care afișează timpul total al execuției testul
 
 ### Selenium
 
-Browsere compatibile: Google Chrome, Mozilla Firefox, Safari, Microsoft Edge și Opera.
-Limbaje de programare suportate: Python, Java, JavaScript, C#, Ruby.
-Interfață interactivă: Nu.
-Raportarea rezultatelor: Nu.
-
+- Browsere compatibile: Google Chrome, Mozilla Firefox, Safari, Microsoft Edge și Opera.
+- Limbaje de programare suportate: Python, Java, JavaScript, C#, Ruby.
+- Interfață interactivă: Nu.
+- Raportarea rezultatelor: Nu.
+- Reutilizarea codului: Nu.
+  
 ### Cypress
 
-Browsere compatibile: Google Chrome, Mozilla Firefox, Microsoft Edge.
-Limbaje de programare suportate: Doar JavaScript.
-Interfață interactivă: Da.
-Raportarea rezultatelor: Da.
+- Browsere compatibile: Google Chrome, Mozilla Firefox, Microsoft Edge.
+- Limbaje de programare suportate: Doar JavaScript.
+- Interfață interactivă: Da.
+- Raportarea rezultatelor: Da.
+- Reutilizarea codului: Da.
 
 ## Tabele de comparație între Selenium și Cypress
 
