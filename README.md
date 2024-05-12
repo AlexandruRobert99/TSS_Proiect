@@ -36,7 +36,7 @@ Studiul își propune să realizeze o comparație între Selenium și Cypress, d
 - Publicație științifică: 9th International Conference on Computer Science, Engineering and Applications (ICCSEA 2019)
 - DOI: [10.5121/csit.2019.91803](https://dx.doi.org/10.5121/csit.2019.91803)
 
-## Metodologie
+## Prezentarea platformei de testare: Saucedemo
 
 Vom folosi un site-ul folosit în primul articol științific: [Saucedemo](https://www.saucedemo.com).
 Pe parcursul testelor noastre vom folosi **standard_user** și **problem_user**.
@@ -63,4 +63,64 @@ Pentru început vom folosi **standard_user**.
 
 ![Alt text](https://raw.githubusercontent.com/AlexandruRobert99/TSS_Proiect/main/Screenshots/Screenshot%20(8).png)
 ![Alt text](https://raw.githubusercontent.com/AlexandruRobert99/TSS_Proiect/main/Screenshots/Screenshot%20(9).png)
+
+### Pentru problem_user am încărcat capturi de ecran din timpul unei testări în Selenium.
+**La problem_user apar erori, cum era de așteptat.**
+
+![Alt text](https://raw.githubusercontent.com/AlexandruRobert99/TSS_Proiect/main/Screenshots/Screenshot%20(11).png)
+
+Prima problemă este faptul că unele butoane nu pot fi apăsate.
+![Alt text](https://raw.githubusercontent.com/AlexandruRobert99/TSS_Proiect/main/Screenshots/Screenshot%20(12).png)
+
+O altă problemă constă în faptul că în câmpul Last Name nu pot fi scrise caractere. Mai mult, în câmpul First Name se preia mereu ultima literă care se încearcă a fi scrisă în Last Name, ștergând conținutul scris anterior. În acest exemplu inițial în First Name era scris "John", iar în Last Name s-a încercat să se scrie "Doe". "e" fiind ultima literă din "Do**e**" în First Name a rămas doar acel caracter. Când se încearcă să se trimită formularul primim o eroare deoarece nu au fost completate toate câmpurile.
+
+![Alt text](https://raw.githubusercontent.com/AlexandruRobert99/TSS_Proiect/main/Screenshots/Screenshot%20(13).png)
+
+## Procedură de testare 
+
+Vom rula mai multe teste pentru a compara viteza de rulare și numărul de linii de cod, printre care:
+- Testarea paginii de login
+- Testarea add to cart
+- Testarea checkout-ului
+- Testarea finalizării checkout-ului
+- Testarea pentru doi useri simultan (secvențial)
+- Testarea pentru doi useri simultan (paralel)
+
+Scopul testelor este de a măsura viteza de execuție pentru a face o comparație între viteza și numărul de linii de cod între Selenium și Cypress.
+
+### Selenium
+
+Mai sus am văzut cum a rulat un test în Selenium. În cadrul acestei lucrări vom folosi **Jupyter Notebooks** și **Python** pentru a scrie codurile testelor în Selenium. Fișierele se pot găsi în folderul **Selenium**.
+
+Am creat 3 notebook-uri diferite, câte unul pentru fiecare browser (Google Chrome, Mozilla Firefox și Microsoft Edge).
+
+În această imagine se poate vedea timpul de rulare al testului.
+
+![Alt text](https://raw.githubusercontent.com/AlexandruRobert99/TSS_Proiect/main/Screenshots/Screenshot%20(22).PNG)
+
+În cadrul notebook-urilor se pot observa timpii de rulare pentru toate testele. Acești timpi au fost notați într-un tabel, alături de numărul de linii de cod necesari pentru a realiza fiecare test în parte.
+
+### Cypress
+
+Un prim lucru care se observă imediat la Cypress în comparație cu Selenium este interfața interactivă. Totodată, cu același cod se pot rula teste în browsere diferite, pe când în Selenium trebuie schimbat driver-ul.
+
+![Alt text](https://raw.githubusercontent.com/AlexandruRobert99/TSS_Proiect/main/Screenshots/Screenshot%20(23).PNG)
+
+![Alt text](https://raw.githubusercontent.com/AlexandruRobert99/TSS_Proiect/main/Screenshots/Screenshot%20(14).PNG)
+
+## Alte comparații
+
+### Selenium
+
+Browsere compatibile: Google Chrome, Mozilla Firefox, Safari, Microsoft Edge și Opera.
+Limbaje de programare suportate: Python, Java, JavaScript, C#, Ruby.
+Interfață interactivă: Nu.
+Raportarea rezultatelor: Nu.
+
+### Cypress
+
+Browsere compatibile: Google Chrome, Mozilla Firefox, Microsoft Edge.
+Limbaje de programare suportate: Doar JavaScript.
+Interfață interactivă: Da.
+Raportarea rezultatelor: Da.
 
