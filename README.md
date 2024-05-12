@@ -36,4 +36,28 @@ Studiul își propune să realizeze o comparație între Selenium și Cypress, d
 - Publicație științifică: 9th International Conference on Computer Science, Engineering and Applications (ICCSEA 2019)
 - DOI: [10.5121/csit.2019.91803](https://dx.doi.org/10.5121/csit.2019.91803)
 
-## Pentru prezentarea 3/3 am să modific PowerPoint-ul astfel încât să folosesc și al doilea articol și totodată am să rulez și teste pentru Cypress.
+## Metodologie
+
+Vom folosi un site-ul folosit în primul articol științific: [Saucedemo](https://www.saucedemo.com)
+
+**1. Ecranul de autentificare:** Prima imagine arată ecranul de autentificare unde utilizatorii se pot loga folosind nume de utilizator predefinite și o parolă comună. Această pagină este punctul de plecare pentru accesarea contului pe platformă. Pe parcursul testelor noastre vom folosi **standard_user** și **problem_user**.
+
+![Alt text](https://raw.githubusercontent.com/AlexandruRobert99/TSS_Proiect/main/Screenshots/Screenshot%20(1).png)
+
+**2. Selecția produselor și coșul de cumpărături:** Imaginile următoare prezintă produsele pe măsură ce sunt adăugate în coșul de cumpărături. Pe măsură ce articolele sunt selectate, butonul "Add to cart" (Adaugă în coș) se schimbă în "Remove" (Elimină), indicând că produsul a fost adăugat în coș.
+
+![Alt text](https://raw.githubusercontent.com/AlexandruRobert99/TSS_Proiect/main/Screenshots/Screenshot%20(2).png)
+![Alt text](https://raw.githubusercontent.com/AlexandruRobert99/TSS_Proiect/main/Screenshots/Screenshot%20(3).png)
+
+**3. Vizualizarea și gestionarea coșului de cumpărături:** Această imagine arată coșul de cumpărături cu toate produsele selectate, unde utilizatorii pot elimina produse dacă doresc.
+
+![Alt text](https://raw.githubusercontent.com/AlexandruRobert99/TSS_Proiect/main/Screenshots/Screenshot%20(6).png)
+
+**4. Procesul de checkout:** După ce și-au finalizat selecția de produse, utilizatorii trec la procesul de checkout unde completează informații personale și de plată.
+
+![Alt text](https://raw.githubusercontent.com/AlexandruRobert99/TSS_Proiect/main/Screenshots/Screenshot%20(7).png)
+
+**6. Finalizarea comenzii:** Ultimele imagini arată ecranul final de confirmare a comenzii, unde utilizatorii sunt informați că comanda lor a fost plasată și urmează să fie livrată.
+
+![Alt text](https://raw.githubusercontent.com/AlexandruRobert99/TSS_Proiect/main/Screenshots/Screenshot%20(8).png)
+![Alt text](https://raw.githubusercontent.com/AlexandruRobert99/TSS_Proiect/main/Screenshots/Screenshot%20(9).png)
