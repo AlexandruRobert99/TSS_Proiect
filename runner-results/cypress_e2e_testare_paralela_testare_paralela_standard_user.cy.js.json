@@ -1,0 +1,10 @@
+{
+  "suites": 1,
+  "tests": 1,
+  "passes": 1,
+  "pending": 0,
+  "failures": 0,
+  "start": "2024-05-12T15:14:29.273Z",
+  "duration": 6270,
+  "file": "cypress\\e2e\\testare_paralela\\testare_paralela_standard_user.cy.js"
+}
