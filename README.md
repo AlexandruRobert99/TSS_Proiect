@@ -162,4 +162,10 @@ Mai jos avem tabelele de comparație între timpii de execuție în secunde și 
 
 ![Alt text](https://raw.githubusercontent.com/AlexandruRobert99/TSS_Proiect/main/Screenshots/tabel3.PNG)
 
+În concluzie, Cypress poate fi considerat mai bun decât Selenium pentru proiecte care necesită o eficiență mai mare în scrierea și executarea testelor pe diferite browsere fără a necesita modificări ale codului. Cypress oferă, de asemenea, o interfață interactivă care facilitează debug-ul și vizualizarea directă a testelor în timp real, ceea ce este un avantaj semnificativ în contextul dezvoltării rapide a aplicațiilor web moderne. Aceste caracteristici fac din Cypress o soluție mai potrivită pentru echipele care caută agilitate și rapiditate în ciclurile de dezvoltare și testare.
 
+Pe de altă parte, Selenium rămâne o opțiune robustă și flexibilă, cu suport extensiv pentru mai multe limbaje de programare, ceea ce îl face adecvat pentru integrarea în medii de dezvoltare diverse și complexe. Deși necesită mai multe ajustări pentru a funcționa pe diferite browsere și poate implica un cod mai voluminos, Selenium are avantajul unei comunități mari și a unei stabilități dovedite pe parcursul multor ani.
+
+Pentru organizațiile care dispun de competențe în multiple limbaje de programare și care au nevoie de un control mai detaliat asupra testelor automate, Selenium poate fi încă soluția preferată. În contrast, pentru dezvoltatorii și testatorii care prioritizează rapiditatea și eficiența în ciclul de dezvoltare, mai ales în proiectele care utilizează JavaScript, Cypress oferă beneficii semnificative.
+
+Alegerea între Selenium și Cypress ar trebui, în cele din urmă, să se bazeze pe specificul și nevoile proiectului, precum și pe competențele și resursele disponibile în cadrul echipei de dezvoltare. Prin înțelegerea profundă a punctelor forte și a limitărilor fiecărui instrument, echipele pot face o alegere informată care să maximizeze eficiența și succesul inițiativelor lor de testare automatizată.
