@@ -104,9 +104,35 @@ Am creat 3 notebook-uri diferite, câte unul pentru fiecare browser (Google Chro
 
 Un prim lucru care se observă imediat la Cypress în comparație cu Selenium este interfața interactivă. Totodată, cu același cod se pot rula teste în browsere diferite, pe când în Selenium trebuie schimbat driver-ul.
 
-![Alt text](https://raw.githubusercontent.com/AlexandruRobert99/TSS_Proiect/main/Screenshots/Screenshot%20(23).PNG)
+![Alt text](https://raw.githubusercontent.com/AlexandruRobert99/TSS_Proiect/main/Screenshots/Screenshot%20(23).png)
 
-![Alt text](https://raw.githubusercontent.com/AlexandruRobert99/TSS_Proiect/main/Screenshots/Screenshot%20(14).PNG)
+În Cypress se pot găsi foarte repede testele.
+
+![Alt text](https://raw.githubusercontent.com/AlexandruRobert99/TSS_Proiect/main/Screenshots/Screenshot%20(14).png)
+
+### Pentru standard_user am încărcat capturi de ecran din timpul unei testări în Cypress.
+
+Pe parcursul acestor teste, Cypress validează fluxurile de utilizare de bază ale aplicației web, verificând automat fiecare etapă a procesului de cumpărături pentru a asigura funcționarea corectă a site-ului.
+
+Interfața ne permite doar cu un hover să vedem un before and after al click-ului pe butonul de login.
+
+![Alt text](https://raw.githubusercontent.com/AlexandruRobert99/TSS_Proiect/main/Screenshots/Screenshot%20(15).png)
+
+![Alt text](https://raw.githubusercontent.com/AlexandruRobert99/TSS_Proiect/main/Screenshots/Screenshot%20(17).png)
+
+Interfața ne permite doar cu un hover să vedem un before and after al click-ului pe butonul "Add to cart".
+
+![Alt text](https://raw.githubusercontent.com/AlexandruRobert99/TSS_Proiect/main/Screenshots/Screenshot%20(18).png)
+
+![Alt text](https://raw.githubusercontent.com/AlexandruRobert99/TSS_Proiect/main/Screenshots/Screenshot%20(19).png)
+
+Se ajunge la finalul testului.
+
+![Alt text](https://raw.githubusercontent.com/AlexandruRobert99/TSS_Proiect/main/Screenshots/Screenshot%20(20).png)
+
+Se poate vedea la final un log care afișează timpul total al execuției testului. 
+
+![Alt text](https://raw.githubusercontent.com/AlexandruRobert99/TSS_Proiect/main/Screenshots/Screenshot%20(21).png)
 
 ## Alte comparații
 
@@ -123,4 +149,17 @@ Browsere compatibile: Google Chrome, Mozilla Firefox, Microsoft Edge.
 Limbaje de programare suportate: Doar JavaScript.
 Interfață interactivă: Da.
 Raportarea rezultatelor: Da.
+
+## Tabele de comparație între Selenium și Cypress
+
+Mai jos avem tabelele de comparație între timpii de execuție în secunde și numărul de linii de cod pentru Selenium și Cypress. Se poate observa clar că Selenium este mai bun la testele simple, iar Cypress la testele multiple, fie rulate în mod secvențial sau în paralel.
+
+![Alt text](https://raw.githubusercontent.com/AlexandruRobert99/TSS_Proiect/main/Screenshots/tabel1.PNG)
+
+![Alt text](https://raw.githubusercontent.com/AlexandruRobert99/TSS_Proiect/main/Screenshots/tabel2.PNG)
+
+## Concluzii comparație între Selenium și Cypress
+
+![Alt text](https://raw.githubusercontent.com/AlexandruRobert99/TSS_Proiect/main/Screenshots/tabel3.PNG)
+
 
